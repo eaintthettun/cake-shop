@@ -56,3 +56,7 @@ nav {
   min-height: 75vh;
   border: none;
 }
+/* menu btn  */
+.menu {
+  display: none;
+}

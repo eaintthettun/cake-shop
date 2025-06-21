@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+  .menu {
+    display: block;
+    cursor: pointer;
+  }
+  .nav-items {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background: rgb(215, 218, 56);
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+}
