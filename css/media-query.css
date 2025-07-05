@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
   .menu {
     display: block;
     cursor: pointer;
@@ -12,5 +16,50 @@
     padding: 30px;
     flex-direction: column;
     border-radius: 30px;
+    /* display: none; */
+    /* come from inside */
+    transform: scale(0);
+    transition: 0.5s;
+    transform-origin: right top;
+    /* transform: translateX(120%);
+    transition: 0.5s; */
+  }
+
+  .show {
+    /* display: block; */
+    transform: scale(1);
+    /* transform: translate(0); */
+  }
+  .banner-content {
+    width: 100%;
+    background: #f7cb8a88;
+    padding-left: 40px;
+  }
+
+  /* section */
+  section {
+    padding: 50px 0;
+  }
+
+  /* about section */
+  .about-section {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .about-image {
+    margin-top: 60px;
+  }
+
+  /* menu section */
+  .menu-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* testimonials-section */
+  .testimonials-section {
+    flex-direction: column-reverse;
+    gap: 20px;
   }
 }
