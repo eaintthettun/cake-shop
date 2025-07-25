@@ -7,12 +7,15 @@
     display: block;
     cursor: pointer;
   }
+  nav {
+    left: 45px;
+  }
   .nav-items {
     position: absolute;
     top: 90px;
     left: 0;
     right: 0;
-    background: rgb(215, 218, 56);
+    background: rgb(242, 243, 174);
     padding: 30px;
     flex-direction: column;
     border-radius: 30px;
@@ -66,5 +69,13 @@
   /* contact section */
   .contact-container {
     grid-template-columns: 1fr;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+  .footer-about-company-section {
+    padding: 30px;
+    width: 100%;
   }
 }

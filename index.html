@@ -11,6 +11,14 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media-query.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@hellouxpavel/cssanimation@latest/dist/cssanimation-utility.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -51,8 +59,10 @@
           <img src="./photos/cake-2.svg" width="20" alt="" />
           <img src="./photos/cake-3.svg" width="20" alt="" />
         </div>
-        <h1>Welcome to YGN' Cafe</h1>
-        <p>Your favorite place for delicious cakes and coffee.</p>
+        <h1 class="cssanimation ca__fx-blurInfromLeft">Welcome to YGN' Cafe</h1>
+        <p class="cssanimation ca__fx-blurInfromLeft">
+          Your favorite place for delicious cakes and coffee.
+        </p>
         <div class="btn-group">
           <a href="#" class="btn btn-secondary">Order Now</a>
           <a href="#" class="btn btn-secondary">Contact</a>
@@ -198,7 +208,37 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-contact-section">
+        <div>
+          <img src="./photos/icons/location.svg" alt="" />
+          <p>No.100,Ze Zar War St.,South Dagon,Yangon</p>
+        </div>
+        <div>
+          <img src="./photos/icons/phone.svg" alt="" />
+          <p>+59 123 456 789</p>
+        </div>
+        <div>
+          <img src="./photos/icons/gmail.svg" alt="" />
+          <p>yangoncakeshop@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-about-company-section">
+        <h1>About the company</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt
+          perferendis obcaecati aliquid voluptate quam adipisci harum, unde
+          explicabo odio labore?Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ad, vitae.
+        </p>
+        <div>
+          <img src="./photos/icons/facebook.svg" alt="" />
+          <img src="./photos/icons/twitter.svg" alt="" />
+          <img src="./photos/icons/instagram.svg" alt="" />
+          <img src="./photos/icons/github.svg" alt="" />
+        </div>
+      </div>
+    </footer>
     <script type="module" src="js/script.js"></script>
   </body>
 </html>
